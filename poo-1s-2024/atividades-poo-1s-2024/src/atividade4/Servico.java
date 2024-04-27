@@ -16,5 +16,9 @@ public class Servico {
     public double getPreco() {
         return preco;
     }
+
+    public String retornaLinhaCusto() {
+        return "Serviço: " + nome + " || R$: " + preco;
+    }
 }
 
